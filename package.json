@@ -1,0 +1,23 @@
+{
+  "name": "hospital-management",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "dotenv": "^10.0.0",
+    "cors": "^2.8.5",
+    "helmet": "^4.6.0",
+    "express-rate-limit": "^6.3.0",
+    "express-mongo-sanitize": "^2.0.0",
+    "hpp": "^0.2.3",
+    "joi": "^17.6.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "winston": "^3.6.0",
+    "uuid": "^8.3.2"
+  }
+}
